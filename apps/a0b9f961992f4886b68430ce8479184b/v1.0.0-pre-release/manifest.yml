@@ -1,0 +1,33 @@
+app_id: a0b9f961992f4886b68430ce8479184b
+name: Global-replication-Sasi
+description: ""
+logo: ""
+manifest_version: ""
+ignored: []
+ui:
+    homepage: ""
+    extensions: []
+    pages: {}
+    dashboards: {}
+    navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections: []
+auth:
+    scopes: []
+    permissions: {}
+    roles: []
+functions: []
+workflows: []
+parsers:
+    - name: Okta-global-abc
+      description: ""
+      path: parsers/Okta-global-abc/script.txt
+      fields_to_tag: []
+      fields_to_remove: []
+      is_data_connector: true
+      tests_path: ""
+logscale:
+    saved_searches: []
+lookup_files: []
+app_docs: []
